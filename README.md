@@ -1,9 +1,8 @@
-# Train-Tracking-Operation-Considering-Cooperation
+# Tracking-Train-Operation-Optimization
 A multi-objective optimization case for tracking operation in urban rail transit, considering cooperation between trains. 
 
 #### 论文题目/Title of the paper
 - 考虑协同的城轨列车追踪运行多目标优化研究
-  
 - Multi-Objective Optimization For Tracking Operation In Urban Rail Transit with Consideration of Cooperation
 #### 论文摘要/Abstract of the paper
 - 随着城市轨道交通能耗日益剧增，如何提高再生制动能量利用以降低列车运行能耗成为关键。本文聚焦多列车协同运行过程的追踪列车运行控制策略优化问题。首先，在传统运行工况演变策略的基础上，提出“牵引-惰行-牵引-巡航-惰行-制动”策略。其次，构建空间域列车动力学、状态转移以及能耗模型，并将时域的运行协同问题转变为空间域的工况转换点求解问题。随后，构建以运行能耗与准时性为目标的优化决策模型，并结合蜣螂优化算法进行高效求解。最后，以北京地铁亦庄线为仿真线路，对比分析了基于通信的列车控制(CBTC)与列车自主控制(TACS)架构以及不同演变策略对优化效果的影响。结果表明：相较于CBTC，TACS显著提升协同运行优化效果；所提出策略满足准时性需求的同时，在不同发车间隔下的能耗表现均优于传统策略。
